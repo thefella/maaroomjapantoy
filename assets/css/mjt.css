@@ -490,8 +490,18 @@ main {
     text-align: left;
   }
 }
+#social-links a {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 3em;
+}
 ol {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#opening-hours li .day {
+  display: inline-block;
+  width: 6em;
 }
 img {
   max-width: 100%;
