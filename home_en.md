@@ -8,6 +8,8 @@ title: Maaroom JapanToy
 description: "The best Japanese toy shop in Bangkok!"
 skip_content: Skip to main content
 
+tagline: The best Japanese toy shop in Bangkok!
+
 business_name: Maaroom JapanToy
 address_title: Address
 extended_address: New Rot Fai Market Ratchada

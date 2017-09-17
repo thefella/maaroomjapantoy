@@ -8,6 +8,8 @@ title: Maaroom JapanToy
 description: "ร้านขายของเล่นญี่ปุ่นที่ดีที่สุดในกรุงเทพฯ!"
 skip_content: ข้ามไปที่เนื้อหาหลัก
 
+tagline: ร้านขายของเล่นญี่ปุ่นที่ดีที่สุดในกรุงเทพฯ!
+
 business_name: Maaroom JapanToy
 address_title: ที่อยู่
 extended_address: ตลาดนัดรถไฟ รัชดา

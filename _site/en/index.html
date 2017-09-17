@@ -15,13 +15,18 @@
 <link rel="alternate" href="/th/" hreflang="th">
 <link rel="alternate" href="/en/" hreflang="en">
 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda|Kanit:300">
+<link rel="stylesheet" href="/assets/font/symbolset/ss-social-circle-standard.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/assets/css/mjt.css?v=1505678497370457000">
+
 <head>
 <body id="top" class="lang-en">
 <a id="skip" href="#main">Skip to main content</a>
 
 <div class="global-wrapper">
 	
-<nav role="navigation">
+<nav role="navigation" id="language-nav" class="language-nav">
 	<ul>
 		<li><abbr lang="en" title="English">en</abbr></li> 
 		<li><a href="/th/" hreflang="th" title="เปลี่ยนเป็นภาษาไทย"><abbr lang="th" title="ภาษาไทย">th</abbr></a></li> 
@@ -31,12 +36,20 @@
 <main id="main" class="main">
 	
 	
+	<section id="hero" class="group photo-group hero-group">
+		<header role="banner">
+			<h1>Maaroom JapanToy</h1>
+			<h2>The best Japanese toy shop in Bangkok!</h2>
+		</header>
+	</section>
+	
+	
 <p>
 	<a rel="external me" href="https://www.facebook.com/MaaroomJapanToy/" class="ss-icon ss-social-circle" title="Facebook - Opens in a new window" target="_blank">Facebook</a>
 	<a rel="external me" href="https://www.instagram.com/maaroom_japantoy/" class="ss-icon ss-social-circle" title="Instagram - Opens in a new window" target="_blank">Instagram</a>
 </p>
 
-<section class="vcard" itemscope itemtype="http://schema.org/ToyStore">
+<section class="group vcard" itemscope itemtype="http://schema.org/ToyStore">
 	<h1 class="name" itemprop="name">Maaroom JapanToy</h1>
 	<p><span class="pricerange">Best Value Japanese Toys</span></p>
 	
@@ -60,27 +73,31 @@
 		
 		
 		<a id="map-container-link" href="https://www.google.com/maps/place/Maaroom+JapanToy/data=!3m1!4b1!4m2!3m1!1s0x30e29e88ab2e7b7d:0x89998050aa0aa215" target="_blank">
-			<img width="520" height="410" src="https://maps.googleapis.com/maps/api/staticmap?scale=1&amp;size=520x410&amp;style=feature:poi.business|visibility:off&amp;style=feature:water|visibility:simplified&amp;style=feature:road|element:labels.icon|visiblity:off&amp;style=feature:road.highway|element:labels|saturation:-90|lightness:25&amp;format=jpg&amp;language=th&amp;region=TH&amp;markers=color:0x48487f|13.7670805,100.569019&amp;zoom=16&amp;client=google-presto&amp;signature=APAuaqhTFh1jfHQQxSe37wgn53E" alt="Map showing business direction">
+			<img id="google-map" width="520" height="410" src="https://maps.googleapis.com/maps/api/staticmap?scale=1&amp;size=520x410&amp;style=feature:poi.business|visibility:off&amp;style=feature:water|visibility:simplified&amp;style=feature:road|element:labels.icon|visiblity:off&amp;style=feature:road.highway|element:labels|saturation:-90|lightness:25&amp;format=jpg&amp;language=th&amp;region=TH&amp;markers=color:0x48487f|13.7670805,100.569019&amp;zoom=16&amp;client=google-presto&amp;signature=APAuaqhTFh1jfHQQxSe37wgn53E" alt="Map showing business direction">
 		</a>
 		
 	</section>
 	
 	<section id="opening-hours" class="opening-hours">
 		<h1>Opening Hours</h1>
-		<meta itemprop="openingHours" content="Mo 17:00-00:00"><span class="day">Monday</span> <span class="time>">17:00-00:00</span></meta>
-		<meta itemprop="openingHours" content="Tu 17:00-00:00"><span class="day">Tuesday</span> <span class="time>">17:00-00:00</meta>
-		<meta itemprop="openingHours" content="We 17:00-00:00"><span class="day">Wednesday</span> <span class="time>">17:00-00:00</meta>
-		<meta itemprop="openingHours" content="Th 17:00-00:00"><span class="day">Thursday</span> <span class="time>">17:00-00:00</meta>
-		<meta itemprop="openingHours" content="Fr 17:00-00:00"><span class="day">Friday</span> <span class="time>">17:00-00:00</meta>
-		<meta itemprop="openingHours" content="Sa 17:00-00:00"><span class="day">Saturday</span> <span class="time>">17:00-00:00</meta>
-		<meta itemprop="openingHours" content="Su 17:00-00:00"><span class="day">Sunday</span> <span class="time>">17:00-00:00</meta>
+		<ol>
+			<li><meta itemprop="openingHours" content="Mo 17:00-00:00"><span class="day">Monday</span> <span class="time>">17:00-00:00</span></meta></li>
+			<li><meta itemprop="openingHours" content="Tu 17:00-00:00"><span class="day">Tuesday</span> <span class="time>">17:00-00:00</span></meta></li>
+			<li><meta itemprop="openingHours" content="We 17:00-00:00"><span class="day">Wednesday</span> <span class="time>">17:00-00:00</span></meta></li>
+			<li><meta itemprop="openingHours" content="Th 17:00-00:00"><span class="day">Thursday</span> <span class="time>">17:00-00:00</span></meta></li>
+			<li><meta itemprop="openingHours" content="Fr 17:00-00:00"><span class="day">Friday</span> <span class="time>">17:00-00:00</span></meta></li>
+			<li><meta itemprop="openingHours" content="Sa 17:00-00:00"><span class="day">Saturday</span> <span class="time>">17:00-00:00</span></meta></li>
+			<li><meta itemprop="openingHours" content="Su 17:00-00:00"><span class="day">Sunday</span> <span class="time>">17:00-00:00</span></meta></li>
+		</ol>
 	</section>
 
 </section>
 
 </main>
 
-Copyright Maaroom JapanToy
+<footer class="group" id="footer" role="contentinfo">
+<p class="legal measured"><small>© Copyright 2017 Maaroom JapanToy.</small> <a href="#top">Back to top</a>.</p>
+</footer>
 
 </div><!-- /.global-wrapper -->
 

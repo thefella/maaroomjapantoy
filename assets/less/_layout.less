@@ -1,0 +1,92 @@
+//! Layout 
+//! General Layout
+.group {
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 4rem 4% 2rem;
+}
+
+	@media screen and (min-width: 40em) {
+		.group {
+			padding: 6rem 6%;
+		}
+	}
+	
+	
+.measured {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 44em;
+}
+
+
+.language-nav {
+	background-color: black;
+	color: white;
+}
+
+.language-nav a {
+	color: white;
+}
+
+.language-nav ul {
+	margin: 0;
+	padding: 0.75em;
+	text-align: right;
+}
+
+.language-nav ul li {
+	display: inline;
+}
+
+.language-nav abbr {
+	border: none;
+	font-size: 0.8em;
+	padding-left: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.language-nav abbr::before {
+	background-image: url('/assets/img/gb.svg');
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	content: "\00a0";
+	display: inline-block;
+	line-height: 1em;
+	margin-right: 0.25em;
+	position: relative;
+	width: 1.33333333em;
+}
+
+.language-nav abbr[lang="th"]::before {
+	background-image: url('/assets/img/th.svg');
+}
+
+#hero {
+	background-image: url('/assets/img/shop_ying.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: 0;
+}
+
+
+#hero::after {
+    background: -moz-linear-gradient(left, rgba(0,0,0,0.7) 0%, rgba(51,51,51,0.5) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,0.7)), color-stop(100%, rgba(51,51,51,0.5)));
+background: -webkit-linear-gradient(left, rgba(0,0,0,0.7) 0%, rgba(51,51,51,0.5) 100%);
+background: -o-linear-gradient(left, rgba(0,0,0,0.7) 0%, rgba(51,51,51,0.5) 100%);
+background: -ms-linear-gradient(left, rgba(0,0,0,0.7) 0%, rgba(51,51,51,0.5) 100%);
+background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(51,51,51,0.5) 100%);
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
