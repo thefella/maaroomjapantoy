@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="{% if page.lang %}{{ page.lang }}{% else %}en{% endif %}" class="no-js">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>{{ page.title }}</title>
+<link rel="author" type="text/plain" href="/humans.txt">
+<meta name="description" content="{{ page.description }}">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="handheldfriendly" content="true">
+<meta name="mobileoptimized" content="320">
+
+<link rel="alternate" href="/th/" hreflang="th">
+<link rel="alternate" href="/en/" hreflang="en">
+
+<head>
+<body id="top" class="lang-{% if page.lang %}{{ page.lang }}{% else %}en{% endif %}">
+<a id="skip" href="#main">{{ page.skip_content }}</a>
+
+<div class="global-wrapper">
+	
+<nav role="navigation">
+	<ul>
+		<li>{% if page.lang != "en" %}<a href="/en/" hreflang="en" title="Switch to English language">{% endif %}<abbr lang="en" title="English">en</abbr>{% if page.lang != "en" %}</a>{% endif %}</li> 
+		<li>{% if page.lang != "th" %}<a href="/th/" hreflang="th" title="เปลี่ยนเป็นภาษาไทย">{% endif %}<abbr lang="th" title="ภาษาไทย">th</abbr>{% if page.lang != "th" %}</a>{% endif %}</li> 
+	</ul>
+</nav>
+
+<main id="main" class="main">
+
+<section class="vcard" itemscope itemtype="http://schema.org/ToyStore">
+	<h1 class="name" itemprop="name">{{ page.business_name }}</h1>
+	<p><span class="pricerange">Best Value Japanese Toys</span></p>
+	
+	<img class="photo image" itemprop="image" src="http://maaroomjapantoy.com/assets/img/shop_ying.jpg">
+
+	<section id="address" class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<h1>{{ page.address_title }}</h1>
+		<div>
+		    <div class="fn org">{{ page.business_name }}</div>
+			<address class="adr">
+				<div itemprop="streetAddress">
+					<div class="extended-address">{{ page.extended_address }}</div>
+					<div class="street-address">{{ page.street_address }}</div>
+				</div>
+				<div class="locality" itemprop="addressLocality">{{ page.locality }}</div>
+				<div class="postal-code" itemprop="postalCode">{{ page.postal_code }}</div>
+				<div class="country-name" itemprop="addressCountry">{{ page.country_name }}</div>
+			</address>
+			<a href="https://www.google.co.uk/maps/dir//Maaroom+JapanToy,+99+อาคารเอสพละนาด+Khwaeng+Din+Daeng,+Khet+Din+Daeng,+Krung+Thep+Maha+Nakhon+10400,+Thailand/@13.7670805,100.5668303,17z/data=!4m15!1m6!3m5!1s0x30e29e88ab2e7b7d:0x89998050aa0aa215!2sMaaroom+JapanToy!8m2!3d13.7670805!4d100.569019!4m7!1m0!1m5!1m1!1s0x30e29e88ab2e7b7d:0x89998050aa0aa215!2m2!1d100.569019!2d13.7670805">{{ page.directions }}</a>
+		</div>
+		
+		
+		<a id="map-container-link" href="https://www.google.com/maps/place/Maaroom+JapanToy/data=!3m1!4b1!4m2!3m1!1s0x30e29e88ab2e7b7d:0x89998050aa0aa215" target="_blank">
+			<img width="520" height="410" src="https://maps.googleapis.com/maps/api/staticmap?scale=1&amp;size=520x410&amp;style=feature:poi.business|visibility:off&amp;style=feature:water|visibility:simplified&amp;style=feature:road|element:labels.icon|visiblity:off&amp;style=feature:road.highway|element:labels|saturation:-90|lightness:25&amp;format=jpg&amp;language=th&amp;region=TH&amp;markers=color:0x48487f|13.7670805,100.569019&amp;zoom=16&amp;client=google-presto&amp;signature=APAuaqhTFh1jfHQQxSe37wgn53E" alt="{{ page.map_caption }}">
+		</a>
+		
+	</section>
+	
+	<section id="opening-hours" class="opening-hours">
+		<h1>{{ page.opening_hours_title }}</h1>
+		<meta itemprop="openingHours" content="Mo 17:00-00:00"><span class="day">{{ page.mon }}</span> <span class="time>">{{ page.times }}</span></meta>
+		<meta itemprop="openingHours" content="Tu 17:00-00:00"><span class="day">{{ page.tues }}</span> <span class="time>">{{ page.times }}</meta>
+		<meta itemprop="openingHours" content="We 17:00-00:00"><span class="day">{{ page.wed }}</span> <span class="time>">{{ page.times }}</meta>
+		<meta itemprop="openingHours" content="Th 17:00-00:00"><span class="day">{{ page.thurs }}</span> <span class="time>">{{ page.times }}</meta>
+		<meta itemprop="openingHours" content="Fr 17:00-00:00"><span class="day">{{ page.fri }}</span> <span class="time>">{{ page.times }}</meta>
+		<meta itemprop="openingHours" content="Sa 17:00-00:00"><span class="day">{{ page.sat }}</span> <span class="time>">{{ page.times }}</meta>
+		<meta itemprop="openingHours" content="Su 17:00-00:00"><span class="day">{{ page.sun }}</span> <span class="time>">{{ page.times }}</meta>
+	</section>
+
+</section>
+
+</main>
+
+{{ page.copyright }} Maaroom JapanToy
+
+</div><!-- /.global-wrapper -->
+
+
+
+</body>
+</html>

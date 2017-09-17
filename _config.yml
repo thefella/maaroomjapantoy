@@ -1,0 +1,23 @@
+# Site settings
+timezone: Asia/Bangkok
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://maarroomjapantoy.com" # the base hostname & protocol for your site
+gems:
+  - jekyll-redirect-from
+
+# Build settings
+markdown: kramdown
+kramdown:
+  auto_ids: false
+exclude: [README.md, CNAME, "*.codekit", "*.psd", "assets/graphics/", "assets/less/"]
+
+# Site Defaults
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      pageClass: page
+      layout: "default"
+      title: "Maaroom Test"
+      description: "Maarroom Test Desc"
