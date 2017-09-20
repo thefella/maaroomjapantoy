@@ -625,9 +625,11 @@ img {
 #business-details h1 {
   margin-top: 0;
 }
+#business-details .details {
+  margin-bottom: 2em;
+}
 #business-details .details-map {
   display: inline-block;
-  margin-top: 2em;
 }
 #business-details .name > span {
   display: none;
