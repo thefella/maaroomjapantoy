@@ -620,7 +620,7 @@ img {
   }
 }
 #business-details {
-  background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=maaroom+japantoy,+bangkok,+thailand&zoom=14&scale=2&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff2f9b%7Clabel:%7CMaaroom+JapanToy');
+  background-image: url('/assets/img/staticmap.png');
 }
 #business-details h1 {
   margin-top: 0;

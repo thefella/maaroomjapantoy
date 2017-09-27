@@ -295,6 +295,50 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/img\/IMG_3820.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 450451,
+		"inputAbbreviatedPath": "\/assets\/img\/IMG_3820.JPG",
+		"outputAbbreviatedPath": "\/assets\/img\/IMG_3820.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/IMG_3821.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 792442,
+		"inputAbbreviatedPath": "\/assets\/img\/IMG_3821.JPG",
+		"outputAbbreviatedPath": "\/assets\/img\/IMG_3821.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/IMG_3822.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 803007,
+		"inputAbbreviatedPath": "\/assets\/img\/IMG_3822.JPG",
+		"outputAbbreviatedPath": "\/assets\/img\/IMG_3822.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/IMG_3824.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.98433e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/IMG_3824.JPG",
+		"outputAbbreviatedPath": "\/assets\/img\/IMG_3824.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/shop_ying.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
