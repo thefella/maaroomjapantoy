@@ -621,6 +621,7 @@ img {
 }
 #business-details {
   background-image: url('/assets/img/staticmap.png');
+  background-attachment: fixed;
 }
 #business-details h1 {
   margin-top: 0;
