@@ -2,7 +2,7 @@
 timezone: Asia/Bangkok
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://maarroomjapantoy.com" # the base hostname & protocol for your site
-gems:
+plugins:
   - jekyll-redirect-from
 
 # Build settings
